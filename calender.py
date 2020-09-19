@@ -1,0 +1,12 @@
+import sys
+with open('output.txt', 'w') as f:
+
+
+    print('''Day         Time         Subject
+Tuesday    9:10-10:15    PF
+        10:35-11:40   Science
+        12:10-1:15    Math
+Wednesday 9:10-1:15     Async''', file=f)
+      
+       
+
